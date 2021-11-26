@@ -25,7 +25,7 @@ const index = () => {
         <Title>Dashboard</Title>
         <Card 
           padding={'20px 25px 17px 25px'} 
-          width={'170px'} 
+          width={'190px'} 
           height={'90px'}
         >
           <Container type={'column'}>

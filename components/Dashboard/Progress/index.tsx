@@ -1,17 +1,10 @@
 import React from 'react'
 import styled from 'styled-components'
 import Container from '../../basics/containers/Container'
-import { Title, BannerProgressText } from '../../basics/Text'
+import { Title, BannerProgressText, ProgressText } from '../../basics/Text'
 import Separator from '../../basics/Separator'
 import ProgressCard from '../../basics/Card/ProgressCard'
-
-const ProgressBarContainer = styled.div`
-  width: 40%;
-  background-color: ${props => props.theme.colors.fourthBlue};
-  padding: 22px 36px;
-  border-radius: 7px;
-  box-shadow: 6px 32px 45px 0 rgba(36,53,157,0.13);
-`
+import ProgressBar from './ProgressBar'
 
 const ProgressCardContainer = styled.div`
   width: 60%;
@@ -40,6 +33,8 @@ const ContainerText = styled.div`
   display: flex;
   align-items: center;
 `
+
+
 
 const index = () => {
   //Const
@@ -81,9 +76,7 @@ const index = () => {
   return (
     <Container padding={'36px 0px 0px 0px'} >
       <Container>
-        <ProgressBarContainer>
-          asdasdads
-        </ProgressBarContainer>
+        <ProgressBar/>
         <ProgressCardContainer >
           <Container padding={'0px 0px 24px 0px'}>
             <TitleContainer>

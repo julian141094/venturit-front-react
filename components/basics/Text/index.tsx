@@ -78,3 +78,36 @@ export const BannerProgressText = styled.span`
   letter-spacing: 0;
   line-height: 26px;
 `
+
+export const ProgressText = styled.span`
+  color: ${props => props.theme.colors.white};
+  font-family: Gilroy-Bold;
+  font-size: 40px;
+  letter-spacing: 0;
+  line-height: 25px;
+`
+
+export const ProgressDataTitle = styled.span`
+  color: ${props => props.theme.colors.white};
+  font-family: Gilroy-SemiBold;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 17px;  
+`
+
+export const ProgressDataNumber = styled.span`
+  color: ${props => props.theme.colors.white};
+  font-family: Gilroy-Bold;
+  font-size: 45px;
+  letter-spacing: 0;
+  line-height: 56px;
+  margin-right: 5px;
+`
+
+export const ProgressDataMeassure = styled.span`
+  color: ${props => props.theme.colors.white};
+  font-family: Gilroy-SemiBold;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: 29px
+`

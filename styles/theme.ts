@@ -1,3 +1,5 @@
+import { createGlobalStyle } from "styled-components";
+
 const theme = {
   colors: {
     primaryBlue: '#3D84FF',
@@ -7,6 +9,8 @@ const theme = {
     primaryGray: '#D8D8D8',
     secondaryGray: '#9D9BB6',
     thyrdGray: '#E8E8EE',
+    primaryYellow: '#FED200',
+    primaryOrange: '#FF794F',
 
     white: '#FFF',
     background: '#F5F5FB',

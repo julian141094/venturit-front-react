@@ -1,16 +1,21 @@
 {
+  "homepage":"https://julian141094.github.io/venturit-front-react",
   "name": "venturit-front",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "next": "12.0.4",
     "react": "17.0.2",
+    "react-circular-progressbar": "^2.0.4",
     "react-dom": "17.0.2",
+    "react-responsive-carousel": "^3.2.22",
     "styled-components": "^5.3.3"
   },
   "devDependencies": {
@@ -19,6 +24,7 @@
     "@types/styled-components": "^5.1.15",
     "eslint": "7.32.0",
     "eslint-config-next": "12.0.4",
+    "gh-pages": "^3.2.3",
     "typescript": "4.5.2"
   }
 }

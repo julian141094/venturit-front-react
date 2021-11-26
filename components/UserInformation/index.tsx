@@ -3,7 +3,7 @@ import styled from 'styled-components'
 import Image from 'next/dist/client/image'
 
 const UserArea = styled.div`
-  width: 230px;
+  width: 235px;
   display: flex;
   align-items: center;
   padding-right: 33px;
