@@ -8,11 +8,13 @@ import UserInformation from '../UserInformation'
 
 const NavContainer = styled.div`
   height: 79px;
-  width: 100vw;
   background-color: ${props => props.theme.colors.white};
   display: flex;
   align-items: center;
   justify-content: space-between;
+  position: sticky;
+  top: 0px;
+  z-index: 100;
 `
 
 const LogoContainer = styled.div`

@@ -2,6 +2,8 @@ import React from 'react'
 import styled from 'styled-components'
 import DashboardHeader from '../../components/Dashboard/Header'
 import Events from '../../components/Dashboard/Events'
+import Activitys from '../../components/Dashboard/Activity'
+import Progress from '../../components/Dashboard/Progress'
 
 const ContentArea = styled.div`
   min-height: 100%;
@@ -14,6 +16,8 @@ const index = () => {
     <ContentArea>
       <DashboardHeader/>
       <Events/>
+      <Activitys/>
+      <Progress/>
     </ContentArea>
   )
 }

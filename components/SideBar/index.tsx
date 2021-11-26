@@ -8,7 +8,6 @@ const SidebarContainer = styled.div`
   background-color: ${props => props.theme.colors.primaryBlue};
   display: flex;
   flex-direction: column;
-  overflow-y: hidden;
 `
 
 const index = () => {

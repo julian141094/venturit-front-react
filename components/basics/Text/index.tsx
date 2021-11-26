@@ -42,3 +42,39 @@ export const OtherSubTitle = styled.span`
   letter-spacing: 0;
   line-height: 26px;
 `
+
+export const CardContentText = styled.span`
+  color: ${props => props.theme.colors.primaryText};
+  font-family: Nunito;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 25px;
+`
+
+export const CardProgressText = styled.span`
+  color: ${props => props.theme.colors.sixthText};
+  font-family: Gotham;
+  font-size: 17px;
+  font-weight: bold;
+  letter-spacing: -0.49px;
+  line-height: 18px;
+`
+
+export const CardProgressNumber = styled.span`
+  color: ${props => props.theme.colors.primaryText};
+  font-family: Gotham;
+  font-size: 40px;
+  font-weight: 500;
+  letter-spacing: -1.14px;
+  line-height: 48px;
+  text-align: right;
+`
+
+export const BannerProgressText = styled.span`
+  color: ${props => props.theme.colors.white};
+  font-family: Nunito;
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: 0;
+  line-height: 26px;
+`

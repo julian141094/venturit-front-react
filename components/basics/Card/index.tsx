@@ -8,6 +8,7 @@ type CardProps = {
   padding ?: string,
   margin ?: string,
   shadow ?: string,
+  color ?: string,
 }
 
 const CardArea = styled.div`
@@ -16,11 +17,11 @@ const CardArea = styled.div`
   height: ${props => props.height ? props.height : '76px'};
   padding: ${props => props.padding ? props.padding : '0px'};
   margin: ${props => props.margin ? props.margin : '0px'};
-  background-color: white;
+  background-color: ${props => props.color ? props.color : 'white'};
   border-radius: 5px;
 `
 
-const index = ( {children, height, width, padding, shadow, margin } : CardProps ) => {
+const index = ( {children, height, width, padding, shadow, margin, color } : CardProps ) => {
   return (
     <CardArea 
       height={height} 
@@ -28,6 +29,7 @@ const index = ( {children, height, width, padding, shadow, margin } : CardProps 
       padding={padding} 
       shadow={shadow}
       margin={margin}
+      color={color}
     >
       {children}
     </CardArea>
