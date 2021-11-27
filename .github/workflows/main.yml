@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
 
     env:
-      NEXT_PUBLIC_BASE_PATH: https://julian141094.github.io/venturit-front-react/
+      NEXT_PUBLIC_BASE_PATH: /venturit-front-react/
 
     strategy:
       matrix:
