@@ -26,7 +26,6 @@ Please, let me show you all of tools that i used, to build this test:
 - [React.js](https://reactjs.org/docs/getting-started.html) - React is a JavaScript library for building user interfaces. 
 - [Next.js](https://nextjs.org/docs) - Enter Next.js, the React Framework. Next.js provides a solution to all of the above problems. But more importantly, it puts you and your team in the pit of success when building React applications.
 - [TypeScript](https://www.typescriptlang.org/) - TypeScript is a strongly typed programming language that builds on JavaScript, giving you better tooling at any scale.
-- [Redux](https://redux.js.org/introduction/getting-started) - Redux is a predictable state container for JavaScript apps.
 - And another more tools 😎 .
 
 
