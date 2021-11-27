@@ -7,7 +7,13 @@ type ContainerProps = {
   children ?: any
 }
 
-const Area = styled.div`
+type OtherProps = {
+  readonly format?: string,
+  readonly margin?: string,
+  readonly padding?: string,
+}
+
+const Area = styled.div<OtherProps>`
   width: 100%;
   display: flex;
   flex-direction: ${props => props.format || "row"};

@@ -7,7 +7,11 @@ type SidebaItemProps = {
   iconUrl : string,
 }
 
-const ItemArea = styled.div`
+type OtherProps = {
+  readonly active?: boolean,
+}
+
+const ItemArea = styled.div<OtherProps>`
   padding: 22px 0px;
   display: flex;
   justify-content: center;

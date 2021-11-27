@@ -10,6 +10,9 @@ type DropMenuProps = {
   type ?: string,
 }
 
+type OtherProps = {
+  readonly type?: string;
+}
 
 const ContainerIcon = styled.div`
   width: 48px;
@@ -39,7 +42,7 @@ const StyledLi = styled.li`
   float: left;
 `; 
 
-const DropDownContent = styled.div`
+const DropDownContent = styled.div<OtherProps>`
   padding: 0px 24px 24px 24px;
   right: ${props => props.type === 'message' ? '255px' : '290px'};
   display: none;

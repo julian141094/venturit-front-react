@@ -8,7 +8,11 @@ type ButtonProps = {
   text : string
 }
 
-const ButtonContainer = styled.div`
+type OtherProps = {
+  readonly margin?: string;
+}
+
+const ButtonContainer = styled.div<OtherProps>`
   min-width: 79px;
   height: 46px;
   background-color: ${props => props.theme.colors.primaryBlue};

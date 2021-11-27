@@ -27,7 +27,7 @@ const TextSearch = () => {
   return (
     <Area>
       <Container padding={'0px 17.06px'}>
-        <Input onChange={event => setFilterValue(event.target.value)}/>
+        <Input onChange={(event : any) => setFilterValue(event.target.value)}/>
       </Container>
       <Image src={'/img/search.png'} width={'14px'} height={'14px'}/>
     </Area>

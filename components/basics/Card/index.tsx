@@ -11,7 +11,15 @@ type CardProps = {
   color ?: string,
 }
 
-const CardArea = styled.div`
+type OtherProps = {
+  readonly shadow?: string,
+  readonly width?: string,
+  readonly height?: string,
+  readonly padding?: string,
+  readonly margin?: string,
+}
+
+const CardArea = styled.div<OtherProps>`
   box-shadow: ${props => props.shadow ? props.shadow : '0px 8px 16px 0px rgba(0, 0, 0, 0.2)'};
   width: ${props => props.width ? props.width : '161px'};
   height: ${props => props.height ? props.height : '76px'};

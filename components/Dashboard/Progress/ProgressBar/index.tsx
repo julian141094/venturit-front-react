@@ -79,9 +79,9 @@ const index = () => {
         </TextArea>
       </ProgressContainer>
       <ProgressDataContainer>
-        <ProgressData/>
+        <ProgressData title={'Completed'} number={'20'} meassure={'hours'} badgeAlert={true}/>
         <VerticalSeparator/>
-        <ProgressData/>
+        <ProgressData title={'Left to go'} number={'30'} meassure={'hours'} badgeAlert={false}/>
       </ProgressDataContainer>
     </ProgressBarContainer>
   )

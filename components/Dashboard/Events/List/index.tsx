@@ -37,7 +37,7 @@ const index = () => {
   return (
     <ContainerList>
       <ContainerTitleArea>
-        <ContainerTitle type={'row'}>
+        <ContainerTitle >
           <SubTitle>EVENTS TO</SubTitle>
         </ContainerTitle>
         <Separator/>
